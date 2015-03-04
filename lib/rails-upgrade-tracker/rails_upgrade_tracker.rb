@@ -1,4 +1,0 @@
-module RailsUpgradeTracker
-
-  
-end
