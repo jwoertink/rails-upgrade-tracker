@@ -1,6 +1,6 @@
-# Rails::Upgrade::Tracker
+# RailsUpgradeTracker
+make upgrading rails a little easier
 
-TODO: Write a gem description
 
 ## Installation
 
@@ -20,7 +20,18 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'rails-upgrade-tracker'
+
+rails_version = '4.0.0'
+tracker = RailsUpgradeTracker::Base.new(rails_version)
+path_to_gemfile = './Gemfile'
+gem_names = tracker.collect_gems_from_gemfile(path_to_gemfile)
+
+tracker.rails_data['number'] == '4.0.0'
+tracker.rails_version == '4.0.0'
+```
+
 
 ## Contributing
 
