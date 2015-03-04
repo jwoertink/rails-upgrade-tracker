@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = RailsUpgradeTracker::VERSION
   spec.authors       = ["Jeremy Woertink"]
   spec.email         = ["jeremywoertink@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Make upgrading rails a little easier}
+  spec.description   = %q{Make upgrading rails a little easier}
   spec.homepage      = ""
   spec.license       = "MIT"
 
